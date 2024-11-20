@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Data Tools</h1>
+    
+    <!-- Barcode Section -->
+    <div>
+      <h2>Create Barcode</h2>
+      <input type="text" id="barcodeInput" placeholder="Enter data for barcode">
+      <button id="generateBarcode">Generate Barcode</button>
+      <svg id="barcodeOutput"></svg>
+    </div>
+    
+    <!-- QR Code Section -->
+    <div>
+      <h2>Create QR Code</h2>
+      <input type="text" id="qrInput" placeholder="Enter data for QR code">
+      <button id="generateQR">Generate QR Code</button>
+      <div id="qrOutput"></div>
+    </div>
+    
+    <!-- Image to Base64 Section -->
+    <div>
+      <h2>Image to Base64</h2>
+      <input type="file" id="imageUpload">
+      <p>Base64 Output:</p>
+      <textarea id="base64Output" rows="4" cols="50"></textarea>
+    </div>
+    
+    <!-- Current Milliseconds Section -->
+    <div>
+      <h2>Current Milliseconds</h2>
+      <button id="getMillis">Get Current Milliseconds</button>
+      <p id="millisOutput"></p>
+    </div>
+    
+    <!-- Codice Fiscale Section -->
+    <div>
+      <h2>Generate Codice Fiscale</h2>
+      <button id="generateCF">Generate Codice Fiscale</button>
+      <p id="cfOutput"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

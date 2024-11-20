@@ -1,0 +1,22 @@
+{
+  "name": "data_tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "data_tools"
+  },
+  "author": "bkorobkin",
+  "license": "ISC",
+  "dependencies": {
+    "barcode-generator": "^0.1.0",
+    "codice-fiscale": "^0.0.5",
+    "jsbarcode": "^3.11.6",
+    "qrcode": "^1.5.4"
+  },
+  "keywords": []
+}
